@@ -27,6 +27,7 @@ jobs:
       - run: npm run test
       - run: npm run build --if-present
       - name: Upload Build Artifact
+        if: ${{ matrix.node-version == '22.x' }}
         uses: actions/upload-artifact@v4
         with:
           name: build-artifact
