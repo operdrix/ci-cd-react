@@ -51,7 +51,7 @@ Le pipeline se compose de quatre grandes étapes :
 4. **Création Automatique d'une Release GitHub :**  
    - **Objectif :** À la création d'un nouveau tag, générer automatiquement une release GitHub et y attacher l'artefact (`delivery.zip`).
    - **Étapes :**
-     - Utilisation de l'action [ncipollo/release-action@v1](https://github.com/ncipollo/release-action) pour créer la release.
+     - Utilisation de l'action [actions/create-release@v1](https://github.com/actions/create-release) pour créer la release.
      - Utilisation de la variable `${{ github.ref_name }}` afin d'obtenir le nom du tag.
      - Attachement de l'artefact `delivery.zip` à la release.
 
