@@ -143,6 +143,7 @@ Pour tester l'ensemble du processus CI/CD sur votre machine et sur GitHub, suive
    - **Déploiement continu et création de Release :**
      - Créez et poussez un nouveau tag pour déclencher le déploiement sur GitHub Pages et la création d'une release. Par exemple :
        ```bash
+       git checkout main
        git tag -a v2.0.0 -m "Version 2.0.0"
        git push origin v2.0.0
        ```
