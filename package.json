@@ -1,7 +1,7 @@
 {
   "name": "ci-cd-react",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "homepage": "https://operdrix.github.io/ci-cd-react",
   "scripts": {
